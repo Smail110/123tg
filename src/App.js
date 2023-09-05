@@ -12,7 +12,7 @@ function App(){
   return (
     <div className="App">
         <span className={'username'}>
-            {tg.initDataUnsafe?.user?.username}
+            {tg.user?.username}
         </span>
 
     </div>
