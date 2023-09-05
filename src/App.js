@@ -14,6 +14,9 @@ function App(){
         <span className={'first_name'}>
             {tg.initDataUnsafe.user.first_name}
         </span>
+        <span className={"Id"}>
+            {tg.initDataUnsafe.user.id}
+        </span>
 
     </div>
   );
