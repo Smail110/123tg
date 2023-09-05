@@ -11,8 +11,8 @@ function App(){
     }
   return (
     <div className="App">
-      workm
-        <button onClick={onclose}>Закрыть</button>
+      work
+        <button onClick={Onclose}>Закрыть</button>
     </div>
   );
 }
