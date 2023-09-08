@@ -3,6 +3,7 @@ import {useEffect} from "react";
 const tg=window.Telegram.WebApp;
 
 function App(){
+    const ffg = 12;
     useEffect(() => {
         tg.ready();
     }, [])
@@ -20,6 +21,7 @@ function App(){
         <span className={"Id"}>
             {tg.initDataUnsafe.user.last_name}
         </span>
+        {ffg}
         <span className={"Id"}>
             {tg.initDataUnsafe.user.username}
         </span>
